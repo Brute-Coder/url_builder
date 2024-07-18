@@ -349,7 +349,7 @@ export function Urlbuilder() {
           </div>
         </div>
       </CardContent>
-      <CardFooter className="flex justify-center">
+      <CardFooter className="flex justify-center mb-6">
         <div className="grid grid-cols-[1fr_auto] items-center gap-4 w-full">
           <Input
             ref={copyRef}
@@ -369,7 +369,7 @@ export function Urlbuilder() {
         </div>
       </CardFooter>
       {counter != 0 && (
-        <div className="absolute bottom-10 left-10  ">
+        <div className=" absolute md:bottom-10 md:left-10  bottom-0  left-[35%]">
           <p className="dark:text-white text-black mt-1 text-sm items-center flex justify-center">
             Total URLs Built:
             <span className=" text-xl text-green-600 mr-2">{counter}</span>

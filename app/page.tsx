@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
     <div className=" h-screen w-screen  flex justify-center items-center">
-      <div className=" absolute  top-10 right-10 flex flex-col  items-center">
+      <div className=" absolute  md:top-10 md:right-10 right-1 top-1 flex flex-col  items-center">
         <Switch onClick={toggleTheme} />
         <p className="dark:text-white text-black mt-1 text-sm">
           {theme === "light" ? "dark" : "light"}{" "}
