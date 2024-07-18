@@ -211,7 +211,7 @@ export function Urlbuilder() {
           </CardTitle>
           <CardDescription className=" mt-6">
             Fill out the fields below to generate a{" "}
-            <span className=" text-green-600 ">custom URL</span> for Campiagns
+            <span className=" text-green-600 ">custom URL</span> for Campaigns
           </CardDescription>
         </div>
       </CardHeader>
