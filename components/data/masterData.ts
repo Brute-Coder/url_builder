@@ -30,6 +30,7 @@ const tradewiseTeachers = [
   "rajesh",
   "raju",
   "vikram",
+  "akshay"
 ];
 
 const tradewise_short_free_slugs = [
