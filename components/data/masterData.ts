@@ -97,6 +97,7 @@ const tradewise_paid_video_slug = [
   "munish-crypto",
   "bala-market",
   "pankaj-scalping",
+  "akshay-ai-investing"
 ];
 
 const tradewise_free_page_formats = ["short", "long"];

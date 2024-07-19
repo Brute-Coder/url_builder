@@ -369,7 +369,7 @@ export function Urlbuilder() {
         </div>
       </CardFooter>
       {counter != 0 && (
-        <div className=" absolute md:bottom-10 md:left-10  bottom-0  left-[35%]">
+        <div className=" absolute md:bottom-10 md:left-10  bottom-0  left-[35%] hidden md:block">
           <p className="dark:text-white text-black mt-1 text-sm items-center flex justify-center">
             Total URLs Built:
             <span className=" text-xl text-green-600 mr-2">{counter}</span>
