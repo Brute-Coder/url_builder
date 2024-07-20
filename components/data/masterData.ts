@@ -11,6 +11,7 @@ const astroTeachers = [
   "saurav",
 ];
 const tradewiseTeachers = [
+  "akshay",
   "abhishek",
   "ashutosh",
   "asseem",
@@ -29,8 +30,7 @@ const tradewiseTeachers = [
   "prabhu",
   "rajesh",
   "raju",
-  "vikram",
-  "akshay"
+  "vikram"
 ];
 
 const tradewise_short_free_slugs = [
