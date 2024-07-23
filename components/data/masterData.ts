@@ -2,6 +2,7 @@ const Categories = ["tradewise", "astrolearn"];
 const PageTypes = ["paid", "free"];
 const astroTeachers = [
   "krish",
+  "vikash",
   "rohet",
   "pravin",
   "vivek",
@@ -9,6 +10,7 @@ const astroTeachers = [
   "aastha",
   "vaibhav",
   "saurav",
+  "tarun"
 ];
 const tradewiseTeachers = [
   "akshay",
@@ -79,6 +81,8 @@ const astro_short_free_slugs = [
   "aastha-switch",
   "vaibhav-bnn",
   "saurav-bnn",
+  "tarun-regression",
+  "vikas-hypnosis"
 ];
 
 const astro_long_free_slugs = [
