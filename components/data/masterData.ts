@@ -2,7 +2,7 @@ const Categories = ["tradewise", "astrolearn"];
 const PageTypes = ["paid", "free"];
 const astroTeachers = [
   "krish",
-  "vikash",
+  "vikas",
   "rohet",
   "pravin",
   "vivek",
