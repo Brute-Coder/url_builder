@@ -1,17 +1,3 @@
-const Categories = ["tradewise", "astrolearn"];
-const PageTypes = ["paid", "free"];
-const astroTeachers = [
-  "krish",
-  "vikas",
-  "rohet",
-  "pravin",
-  "vivek",
-  "jasmine",
-  "aastha",
-  "vaibhav",
-  "saurav",
-  "tarun"
-];
 const tradewiseTeachers = [
   "akshay",
   "abhishek",
@@ -32,7 +18,7 @@ const tradewiseTeachers = [
   "prabhu",
   "rajesh",
   "raju",
-  "vikram"
+  "vikram",
 ];
 
 const tradewise_short_free_slugs = [
@@ -73,25 +59,6 @@ const tradewise_long_free_slugs = [
   "raju-options",
   "vikram-algo",
 ];
-const astro_short_free_slugs = [
-  "krish-kp",
-  "rohet-crystal",
-  "pravin-vedic",
-  "jasmine-tarot",
-  "aastha-switch",
-  "vaibhav-bnn",
-  "saurav-bnn",
-  "tarun-regression",
-  "vikas-hypnosis"
-];
-
-const astro_long_free_slugs = [
-  "krish-kp",
-  "vaibhav-bnn",
-  "pravin-vedic",
-  "rohet-crystal",
-  "saurav-bnn",
-];
 
 const tradewise_paid_video_slug = [
   "abhishek-options",
@@ -102,28 +69,22 @@ const tradewise_paid_video_slug = [
   "munish-crypto",
   "bala-market",
   "pankaj-scalping",
-  "akshay-ai-investing"
+  "akshay-ai-investing",
 ];
-
+const PageTypes = ["paid", "free"];
 const tradewise_free_page_formats = ["short", "long"];
-const astro_free_page_formats = ["short", "long"];
+
 const tradewise_paid_page_formats = ["video"];
-const astro_paid_page_formats: Array<string> = [];
+
 const source = ["facebook", "google"];
 
 export {
-  Categories,
-  PageTypes,
-  astroTeachers,
   tradewiseTeachers,
+  PageTypes,
   tradewise_short_free_slugs,
   tradewise_long_free_slugs,
-  astro_short_free_slugs,
-  astro_long_free_slugs,
   tradewise_paid_video_slug,
   tradewise_free_page_formats,
-  astro_free_page_formats,
   tradewise_paid_page_formats,
-  astro_paid_page_formats,
   source,
 };
