@@ -64,6 +64,7 @@ const tradewise_paid_video_slug = [
   "abhishek-options",
   "jawaad-forex",
   "chirag-options",
+  "chirag-minibootcamp",
   "prabhu-swing",
   "jagpreet-intraday",
   "munish-crypto",
