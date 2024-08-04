@@ -27,6 +27,9 @@ import {
     astro_long_free_slugs,
     astro_paid_page_formats,
     astro_free_page_formats,
+    astro_paid_mini_bootcamp_slugs,
+    astro_paid_long_slugs,
+    astro_paid_short_slugs,
     source,
 } from "@/components/data/astroLearn";
 
@@ -65,8 +68,14 @@ export default function Page() {
                 setUniqueSlugList(astro_long_free_slugs);
             }
         } else if (pageTypeValue === "paid") {
-            if (pageFormatValue === "video") {
-                setUniqueSlugList([]);
+            if (pageFormatValue === "long-paid") {
+                setUniqueSlugList(astro_paid_long_slugs);
+            }
+            else if (pageFormatValue === "short-paid") {
+                setUniqueSlugList(astro_paid_short_slugs);
+            }
+            else if (pageFormatValue === "mini-bootcamp") {
+                setUniqueSlugList(astro_paid_mini_bootcamp_slugs);
             }
         }
 

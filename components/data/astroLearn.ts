@@ -41,7 +41,11 @@ const astro_long_free_slugs = [
   "saurav-bnn",
 ];
 
-const astro_paid_page_formats: Array<string> = [];
+const astro_paid_long_slugs = ["vivek-numero"];
+const astro_paid_short_slugs = ["vivek-numero"];
+const astro_paid_mini_bootcamp_slugs = ["vivek-numero"];
+
+const astro_paid_page_formats = ["long-paid", "short-paid", "mini-bootcamp"];
 
 const astro_free_page_formats = ["short", "long"];
 
@@ -54,5 +58,8 @@ export {
   astro_long_free_slugs,
   astro_paid_page_formats,
   astro_free_page_formats,
+  astro_paid_long_slugs,
+  astro_paid_short_slugs,
+  astro_paid_mini_bootcamp_slugs,
   source,
 };
