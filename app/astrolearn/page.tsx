@@ -113,7 +113,10 @@ export default function Page() {
                 ? pageFormatValue === "short"
                     ? "short-free"
                     : "long-free"
-                : "paid-video";
+                : pageFormatValue.trim();
+
+        console.log("marketing_page_type", marketing_page_type);
+        console.log("pageFormatValue", pageFormatValue);
 
         const url = `${domain}/${masterclassIdValue}/${marketing_page_type}/${uniqueSlugValue}?source=${sourceValue}&comment=${commentValue}`;
         toast.success("URL generated successfully", {
