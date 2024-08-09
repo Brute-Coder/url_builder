@@ -41,8 +41,31 @@ const astro_long_free_slugs = [
   "saurav-bnn",
 ];
 
-const astro_paid_long_slugs = ["vivek-numero"];
-const astro_paid_short_slugs = ["vivek-numero"];
+const astro_paid_long_slugs = [
+  "vivek-numero",
+  "krish-kp",
+  "vaibhav-bnn",
+  "pravin-vedic",
+  "rohet-crystal",
+  "saurav-bnn",
+];
+const astro_paid_short_slugs = [
+  "vivek-numero",
+  "krish-kp",
+  "rohet-crystal",
+  "pravin-vedic",
+  "jasmine-tarot",
+  "aastha-switch",
+  "vaibhav-bnn",
+  "saurav-bnn",
+  "tarun-regression",
+  "vikas-hypnosis",
+  "saurav-pytha",
+  "rupesh-manifest",
+  "shivam-finastro",
+  "nisha-vastu",
+  "somendra-vedic",
+];
 const astro_paid_mini_bootcamp_slugs = ["vivek-numero"];
 
 const astro_paid_page_formats = ["long-paid", "short-paid", "mini-bootcamp"];
